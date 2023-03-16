@@ -1,0 +1,47 @@
+
+
+body{
+    font-family: 'Pacifico', cursive;
+    background-color:rosybrown;
+}
+
+.header_div{
+    background-color:antiquewhite;
+    color: rgb(185, 89, 72);
+
+}
+
+.header_div P{
+    font-weight: bold;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: grey;
+    letter-spacing: 2px;
+
+}
+
+
+.main_div button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    width: 130px;
+    letter-spacing: 3px ;
+    font-weight: bold;
+
+}
+
+.copy-right-footer{
+    position: fixed;
+    color: grey;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 10px grey;
+
+}
+
+
+

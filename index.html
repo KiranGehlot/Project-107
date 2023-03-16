@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="col-xs-12 header_div text-center">
+      <h2> Sound Controlled Animals </h2>
+      <p> Note: Play Different Sounds Like meow bark backgound and bleat  </p>
+    </div>
+    <div class="main_div"> 
+      <center>
+        <br>
+        <button id="start" onclick="startclassification()" class="btn btn-warning"> Start </button>
+        <h2 id="result_label"> Detected </h2>
+        <h2 id="result_confidence"> Detected voice is of</h2>
+        <br>
+        <img src="cat.jpeg" id="cat" width="300" height="300" >
+        <img src="dog.jpeg" id="dog" width="300" height="300" >
+        <img src="panda.jpeg" id="panda" width="300" height="300" >
+        <img src="rabbit.jpeg" id="rabbit" width="300" height="300" >
+
+      </center>
+    </div>
+
+    <div class="copy-right-footer" > Developed by Kiran Gehlot </div>
+
+
+<script src="main.js"></script>
+  </body>
+</html>
